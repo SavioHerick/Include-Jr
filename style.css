@@ -1,0 +1,621 @@
+body{
+    background-image: url(projeto/menina\ do\ carrocortado.jpg);
+    background-repeat: no-repeat;
+    background-size: 1488px;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/* Font The Girl Next Door */
+@font-face {
+    font-family: 'Girl' ;
+    src: url('fonts/thegirlnextdoor.ttf') format('truetype');
+}
+
+/* Font Teko */
+@font-face {
+    font-family: 'Teko' ;
+    src: url('fonts/Teko-Light.ttf') format('truetype');
+}
+
+/* Font Pridi */
+@font-face {
+    font-family: 'Pridi' ;
+    src: url('fonts/Pridi-Light.ttf') format('truetype');
+}
+
+/* Font Crimsom Text */
+@font-face {
+    font-family: 'Crimsom' ;
+    src: url('fonts/CrimsonText-Bold.ttf') format('truetype');
+}
+
+/* Font Geo */
+@font-face {
+    font-family: 'Geo' ;
+    src: url('fonts/Geo-Regular.ttf') format('truetype');
+}
+
+.inicio_texto{
+    position: relative;
+    right: 16em;
+    top: 7em;
+
+}
+
+.inicio p{
+    cursor:text;
+    font-family: 'Girl';
+    font-size: 28px;
+    font-style: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#kira{
+    margin-top: 12%;
+    cursor: text;
+    font-family: 'Girl';
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Menu */
+.menu{
+    position: -webkit-sticky;
+    position: sticky;
+    background-color:#A5A6F6;
+    text-align: center;
+    margin-top: 16%;
+    width: auto;
+    height: 41px;
+    top: 0%;
+}
+
+.menu button{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 0.5%;
+    width: 7em;
+    height: auto;
+    font-size: 23px;
+    font-family: 'Teko';
+    background-color: #A5A6F6;
+
+}
+
+#sobre:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+#jogos:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+#animes:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+#albuns:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.botao_musica{
+    left: 80em;
+    position: fixed;
+    top: 1%;
+}
+
+.botao_musica button{
+    border: none;
+    background-color: transparent;
+}
+
+.botao_musica img{
+    width: 30px;
+}
+
+.botao_musica:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+/* Sobre Mim */
+.sobre_mim h1{
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Pidri';
+    font-size: 90px;
+}
+
+.sobre_mim{
+    padding-top: 1%;
+}
+
+#learn{
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#aprendendo{
+    margin-left: 190px;
+}
+
+.sobre_mim p{
+    margin-top: 2%;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#star{
+    overflow-block:unset;
+    width: 95px;
+    margin-left: 19%;
+    margin-top: -46%;
+}
+
+#hand{
+    width: 50px;
+    margin-left: 70%;
+    margin-top: -13%;
+}
+
+#foto{
+    margin-left: 60%;
+    margin-top: -24%;
+    width: 350px;
+    height: 400px;
+}
+
+#seta1{
+    margin-left: 52%;
+    margin-bottom: -14%;
+    width: 100px;
+    height: 100px;
+}
+
+#seta2{
+    margin-right: -90%;
+    margin-top: -60%;
+    width: 110px;
+    height: 110px;
+
+}
+
+#python:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+#html:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+#css:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+#js:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+#java:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;    
+}
+
+/* Aba Jogos */
+.jogo {
+    padding-top: 2%;
+    margin-top: 4%;
+    background-color: #A5A6F6;
+    width: auto;
+    height: 150px;
+}
+
+.jogo p{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Geo';
+}
+
+#control{
+    margin-top: -14%;
+    margin-left: 80%;
+    width: 120px;
+}
+
+#mine{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 3%;
+    width: 250px;
+    height: 375px;
+}
+
+#hollow{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#celeste{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#cuphead{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#stardew{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#mine:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+    
+}
+
+#hollow:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#celeste:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#cuphead:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#stardew:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#sprites{
+    margin-top: 31%;
+}
+
+#steve{
+    margin-left: 5%;
+    width: 156px;
+    height: 351px;
+}
+
+#knight{
+    margin-left: 7%;
+    width: 205px;
+    height: 280px;
+}
+
+#madeline{
+    width: 252px;
+    height: 252px;
+}
+
+#cuphead-sprite{
+    margin-left: 2%;
+    width: 224px;
+    height: 333px;
+}
+
+#farmer{
+    margin-left: 1%;
+    width: 273px;
+    height: 273px;
+}
+
+/* Aba Animes */
+.anime {
+    padding-top: 3%;
+    margin-top: 4%;
+    background-color: #A5A6F6;
+    width: auto;
+    height: 150px;
+}
+
+.anime p{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Geo';
+}
+
+#kaonashi{
+    margin-top: -17%;
+    margin-left: 80%;
+    width: 120px;
+}
+
+#jojo{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 3%;
+    width: 250px;
+    height: 375px;
+
+}
+
+#onepiece{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#drstone{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#mobpsycho{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#jujutsu{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 375px;
+}
+
+#jojo:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#onepiece:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#drstone:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#mobpsycho:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#jujutsu:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#protas{
+    margin-top: 31%;
+}
+
+#josuke{
+    margin-left: 2%;
+    width: 277px;
+    height: 301px;
+}
+
+#luffy{
+    margin-left: 3%;
+    width: 198px;
+    height: 326px;
+}
+
+#senku{
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 151px;
+    height: 328px;
+}
+
+#mob{
+    margin-left: 6%;
+    width: 162px;
+    height: 312px;
+}
+
+#itadori{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 235px;
+    height: 357px;
+}
+
+/* Aba Álbuns */
+.album {
+    padding-top: 2%;
+    margin-top: 4%;
+    background-color: #A5A6F6;
+    width: auto;
+    height: 150px;
+}
+
+.album p{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Geo';
+}
+
+.album img{
+    margin-top: 6%;
+}
+
+#disc{
+    margin-top: -17%;
+    margin-left: 81%;
+    width: 120px;
+}
+
+#abbey{
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 6%;
+    width: 233px;
+    height: 236px;
+
+}
+
+#tatto{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 233px;
+    height: 236px;
+}
+
+#heaven{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 233px;
+    height: 236px;
+}
+
+#cali{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 233px;
+    height: 236px;
+}
+
+#idiot{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 233px;
+    height: 236px;
+}
+
+#abbey:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#tatto:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#heaven:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#cali:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#idiot:hover{
+    transform: scale(1.05);
+    transition-duration: 0.4s;   
+}
+
+#bandas{
+    margin-top: 27%;
+}
+
+#beatles{
+    margin-top: -3%;
+    margin-left: 5%;
+    width: 225px;
+    height: 225px;
+}
+
+#rollings{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 195px;
+    height: 227px;
+}
+
+#queen{
+    margin-top: -1%;
+    margin-left: 3%;
+    width: 223px;
+    height: 223px;
+}
+
+#redhot{
+    margin-top: -1%;
+    margin-left: -1%;
+    width: 257px;
+    height: 214px;
+}
+
+#greenday{
+    margin-top: 1%;
+    margin-left: 0%;
+    width: 227px;
+    height: 244px;
+}
+
+/* Final Links e Meus Créditos!!! */
+.links{
+    margin-top: 2%;
+    background-color: #A5A6F6;
+    width: auto;
+    height: 155px;
+
+}
+
+.links p{
+    margin-left: 43%;
+    font-family: 'Geo';
+    font-style: bold;
+    font-size: 20px;
+}
+
+.links img{
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 94px;
+    height: 94px;
+}
+
+#linkedin{
+    margin-left: 35%;
+}
+
+#linkedin:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+
+#git:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
+
+#insta:hover{
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+}
